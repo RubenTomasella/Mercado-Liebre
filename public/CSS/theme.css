@@ -12,13 +12,13 @@ img{
 }
 
 .font-head{
-    font-size: 24px;
+    font-size: 2rem;
 }
 .font-high{
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 .font-medium{
-    font-size: 16px;
+    font-size: 1rem;
 }
 .font-strong{
     font-weight: bold;
@@ -67,6 +67,20 @@ img{
 
 
 
+.principal{
+    position: relative;
+
+}
+
+.home-icon{
+    position: fixed;
+    right:40px;
+    bottom: 40px;
+    font-size: 30px;
+    color:#0022AA
+
+}
+
 
 .burger-menu i{
     color:white;
@@ -114,6 +128,10 @@ img{
     
 }
 
+
+
+
+
 .size-logo-header{
     width: 40%;   
 }
@@ -137,6 +155,7 @@ article ul li h3{
     text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
+  text-align: center;
     font-weight: bold;
 }
 
@@ -154,23 +173,30 @@ header{
 
 .first-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
- 
+}
+.first-header-medium{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .leyenda-cuotas{
-    width: 20%;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    
 }
 
 
 .second-header{
     display:none;
+    font-size: 0.7rem;
 }
 
 .banner{
-    margin-top: 108px;
+    margin-top: 105px;
 }
 
 .nav-menu{
@@ -194,19 +220,27 @@ header{
     color: black
 }
 
+.titulo-busqueda{
+    font-size: 1rem;
+}
+.titulo-ofertas{
+    font-size: 1rem;
+}
+
+
 .relative {
     position: relative;
     display: flex;
     flex-wrap:wrap;
-    
+     
 }
 .precio{
-    width: 30%;
+    width: 40%;
     font-size: medium;
 }
 
 .descuento{
-    width: 70%;;
+    width: 60%;;
     font-size: medium;
     color:green
 }
@@ -233,6 +267,15 @@ form p{
 
 }
 
+.Categorias-interes{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.Perfil-usuario{
+    margin-left: 120px; 
+    margin-bottom: 20px;
+}
+
 
 /*ingreso*/
 
@@ -257,3 +300,12 @@ form p{
 
 }
 
+/*carrito*/
+
+.body-carrito{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 250px;
+
+}

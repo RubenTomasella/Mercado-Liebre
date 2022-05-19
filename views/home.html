@@ -26,17 +26,18 @@
 </head>
 
 <body>     
-    <header class="main-header">   
+    <header class="main-header" id="home">   
         <div class="first-header">
                   
-        <img class="size-logo-header" src="./images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">  
-        
-            <form  class="barra-busqueda" action= "/" method="POST" >
+        <img class="size-logo-header" src="./images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre"> 
+        <div class="first-header-medium">
+            <p class="barra-busqueda"><form   action= "/" method="POST" >
                  <input type="text" name="busqueda"><label class="fas fa-search"></label>
           
-            </form>
+            </form></p>
         <p class=" leyenda-cuotas"> <i class="fas fa-hand-holding-usd"> </i>Compra en cuotas y sin tarjeta de credito</p>
-        
+       </div>
+
        </div>
     <div class="second-header">         
             <nav class="nav-menu"> 
@@ -64,8 +65,10 @@
 
     <p class="banner"> <img width="100%"  src="/images/img-home-banner.jpg" alt="Promocion fiestas"></p>
 
-    <main class="bg-light-gray"> 
-        <h2 class="font-head"> Basado en tu ultima busqueda</h2>
+    <main class="bg-light-gray principal"> 
+        <a href="/"><p class="home-icon fas fa-home"></p></a>
+
+        <h2 class="titulo-busqueda"> Basado en tu ultima busqueda</h2>
      
     <section class="seccion-busqueda">
         
@@ -111,7 +114,7 @@
 
     </section>
 
-    <h2 class="font-head">Seccion de Ofertas</h2>
+    <h2 class="titulo-ofertas">Seccion de Ofertas</h2>
     <section class="seccion-ofertas">
         
         <article class="producto">

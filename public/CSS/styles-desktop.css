@@ -25,13 +25,19 @@
     .truck-icon {
         transition: transform  4s;
     }
-
+    
     .truck-icon:hover {
         transform: rotate(-360deg);
     }
     
     .first-footer{
         display: flex;
+    }
+    .second-header{
+       font-size: 1rem;
+    }
+    .banner{
+        margin-top: 145px;
     }
 
 

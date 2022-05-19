@@ -27,18 +27,18 @@
 
 <body>
 
-    <header class="main-header">
-         
+    <header class="main-header">   
         <div class="first-header">
                   
         <img class="size-logo-header" src="./images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">  
-        
-            <form  class="barra-busqueda" action= "/" method="POST" >
+        <div class="first-header-medium">
+            <p class="barra-busqueda"><form   action= "/" method="POST" >
                  <input type="text" name="busqueda"><label class="fas fa-search"></label>
           
-            </form>
+            </form></p>
         <p class=" leyenda-cuotas"> <i class="fas fa-hand-holding-usd"> </i>Compra en cuotas y sin tarjeta de credito</p>
-        
+       </div>
+
        </div>
     <div class="second-header">         
             <nav class="nav-menu"> 
@@ -50,9 +50,9 @@
                 </ul>
 
                 <ul>
-                    <li><a href= "/register" > Crear cuenta</a> <i class="fas fa-id-card"></i></li>
-                    <li><a href= "/ingreso" >Ingresar</a> <i class="fas fa-sign-in-alt"></i></li>
-                    <li><a href="/carrito" >Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+                <li><a href= "/register" > Crear cuenta</a> <i class="fas fa-id-card"></i></li>
+                <li><a href= "/ingreso" >Ingresar</a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="/carrito" >Mis compras</a><i class="fas fa-shopping-basket"></i></li>
                 </ul>
    
             </nav>
@@ -61,13 +61,16 @@
         <div class="burger-menu">
             <i class="fas fa-bars burger"></i>
         </div>
-      
+
     </header>
 
+   <div>
+    <a href="/"><p class="home-icon fas fa-home"></p></a>
+   </div>
     
     <form class="formulario-ingreso" action= "/" method="POST">
 
-        <p class="titulo-ingreso">Formulario de ingreso> </p>
+        <p class="titulo-ingreso">Formulario de ingreso </p>
 
         <p><label>Nombre de usuario</label></p>
         <p><input type="text" name="usuario"></p>

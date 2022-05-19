@@ -26,12 +26,25 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .banner{
+        margin-top: 115px;
+    }
+    .titulo-busqueda{
+        font-size: 2rem;
+    }
 
+    .titulo-ofertas{
+        font-size: 2rem;
+    }
 
     .nombre-producto{
         display:none;
     }
-
+    .leyenda-cuotas{
+        font-size: 1rem;
+        margin-left: 10px;
+        
+    }
 
 
 }
