@@ -276,6 +276,10 @@ form p{
     margin-bottom: 20px;
 }
 
+input:invalid:required {
+    border: red 2px dotted;
+  }
+
 
 /*ingreso*/
 
