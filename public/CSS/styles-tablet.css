@@ -1,0 +1,37 @@
+
+
+@media (min-width : 361px){
+
+          
+    article ul li h3{
+            display:none;
+        }
+
+
+    .burger-menu{
+        display: none;
+    }
+    .second-header{
+        font-weight: bold;
+        display:block;
+    }
+    .producto{
+        width: 50%;
+    }
+    .seccion-busqueda{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .seccion-ofertas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .nombre-producto{
+        display:none;
+    }
+
+
+
+}

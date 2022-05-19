@@ -1,0 +1,38 @@
+
+
+@media (min-width : 769px){
+
+
+
+    .nombre-producto{
+        display:none;
+    }
+   
+    .producto{
+        width: 25%;
+    }
+
+    .producto:hover  .nombre-producto{
+            display:block;
+           
+    }
+    .producto:hover .imagen-producto{
+        
+     box-shadow: 0px 0px 20px rgb(100, 100, 100);
+
+    }
+ 
+    .truck-icon {
+        transition: transform  4s;
+    }
+
+    .truck-icon:hover {
+        transform: rotate(-360deg);
+    }
+    
+    .first-footer{
+        display: flex;
+    }
+
+
+ }

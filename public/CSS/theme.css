@@ -1,0 +1,259 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: white;
+}
+
+
+img{
+    width: 100%;
+}
+
+.font-head{
+    font-size: 24px;
+}
+.font-high{
+    font-size: 18px;
+}
+.font-medium{
+    font-size: 16px;
+}
+.font-strong{
+    font-weight: bold;
+}
+
+.font-yelow{
+    color:#EAC926;
+}
+.bg-yelow{
+    background-color:#EAC926;
+}
+.font-blue{
+    color:#03264C;
+}
+.bg-blue{
+    background-color:#03264C;
+}
+.bg-white{
+    background-color: white;
+}
+.font-light-blue{
+    color:#1259c3;
+}
+.bg-light-blue{
+    background-color:#1259c3; 
+}
+.font-dark-gray{
+    color:#666;
+}
+.bg-dark-gray{
+    background-color:#666;
+}
+.font-light-gray{
+    color:#ebebeb;
+}
+.bg-light-gray{
+    background-color:#ebebeb;
+}
+
+.font-green{
+    color:#39b54a;
+}
+.bg-green{
+    background-color:#39b54a;
+}
+
+
+
+
+.burger-menu i{
+    color:white;
+    font-size: 25px; 
+    background-color: #1259c3;
+    width: 30px; 
+    height: 30px;
+    border-radius: 10%;
+    padding:3px;
+    
+}
+.burger-menu{
+    text-align: center;
+}
+
+
+.nav-section li {
+    list-style: none;
+    padding: 5px;   
+}
+
+
+.nav-section-footer {
+    margin: 10px;
+    text-align: center;
+  }
+
+.nav-section-footer li {
+    font-weight: bold;
+  }
+
+ .truck-icon{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color:green
+    
+}
+
+.size-logo-header{
+    width: 40%;   
+}
+
+.size-logo-footer{
+    font-size: 25px;
+}
+
+
+.article{
+    margin: 10px;
+    padding: 15px;
+}
+
+article ul li h3{
+    display:none;
+}
+
+
+.copyright {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+header{
+    position:relative;
+}
+
+.main-header{
+    background-color: #EAC926;
+    position: fixed;
+    top:0px;
+    z-index:100;
+    width: 100%;
+}
+
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+
+.leyenda-cuotas{
+    width: 20%;
+}
+
+
+.second-header{
+    display:none;
+}
+
+.banner{
+    margin-top: 108px;
+}
+
+.nav-menu{
+    display: none;
+    margin:0px;
+    display: block;
+    display:flex;
+    justify-content: space-between;
+}
+.nav-menu ul{
+    display: flex;   
+}
+
+.nav-menu ul li{
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.relative {
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.precio{
+    width: 30%;
+    font-size: medium;
+}
+
+.descuento{
+    width: 70%;;
+    font-size: medium;
+    color:green
+}
+
+
+/*register*/
+
+.formulario-registro{
+    background-color: lightgray;
+    width: 100%;
+}
+
+form p{
+  padding:  3px 10px;
+  font-size: medium;
+
+}
+
+.titulo-registro{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 250px;
+
+}
+
+
+/*ingreso*/
+
+.formulario-ingreso{
+    background-color: lightgray;
+    width: 100%;
+}
+.titulo-ingreso{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 250px;
+
+}
+
+.boton-ingreso:hover {
+    background-color: #0022AA;
+}
+
+.nav-section-footer i:hover {
+    color:yellow;
+
+}
+
