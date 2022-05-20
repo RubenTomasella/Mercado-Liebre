@@ -4,7 +4,7 @@ const app = express();
 const path=require('path')
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=> console.log("Estamos corriendo en el puerto:" + PORT));
 
